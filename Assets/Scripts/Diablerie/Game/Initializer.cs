@@ -17,14 +17,14 @@ namespace Diablerie.Game
         {
             mpq = new []
             {
-                new DataLoader.MpqLocation{filename="d2exp.mpq", optional=false}, 
-                new DataLoader.MpqLocation{filename="d2data.mpq", optional=false}, 
+                new DataLoader.MpqLocation{filename="d2exp.mpq", optional=false},
+                new DataLoader.MpqLocation{filename="d2data.mpq", optional=false},
                 new DataLoader.MpqLocation{filename="d2char.mpq", optional=false}, 
                 new DataLoader.MpqLocation{filename="d2sfx.mpq", optional=true}, 
-                new DataLoader.MpqLocation{filename="d2music.mpq", optional=true}, 
+                new DataLoader.MpqLocation{filename="d2music.mpq", optional=true},
                 new DataLoader.MpqLocation{filename="d2xMusic.mpq", optional=true}, 
                 new DataLoader.MpqLocation{filename="d2xtalk.mpq", optional=true}, 
-                new DataLoader.MpqLocation{filename="d2speech.mpq", optional=true}, 
+                new DataLoader.MpqLocation{filename="d2speech.mpq", optional=true},
             },
             animData=@"data\global\animdata.d2",
         }; 
